@@ -19,7 +19,7 @@ while True:
     print(" ".join(letras_corretas))
 
     # Peça ao jogador para adivinhar uma letra
-    letra = input("Adivinhe uma letra: ").lower()
+    letra = input("Digite uma letra: ").lower()
 
     # Verifique se a letra está na palavra
     if letra in palavra_secreta:
