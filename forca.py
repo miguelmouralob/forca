@@ -11,7 +11,7 @@ palavra_aleatoria = random.choice(palavras)
 # Inicialize as variáveis
 palavra_secreta = list(palavra_aleatoria)
 letras_corretas = ["_"] * len(palavra_secreta)
-tentativas = 6
+tentativas = 5
 
 # Loop principal do jogo
 while True:
